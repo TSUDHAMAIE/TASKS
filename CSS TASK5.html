@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My first styled page</title>
+    <style>
+        body {
+    font-family: "Georgia", serif;
+    margin: 0;
+    padding: 10px;
+    background-color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.sidenav {
+    width: 150px;
+    background-color:#d4df42 ;
+}
+
+.sidenav a {
+    display: block;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    text-align: left;
+}
+
+.main-content {
+    margin-left:none;
+    padding: 10px;
+    background-color: #d4df42;
+    width: 325px;
+}
+
+.main-content h1 {
+    color: #a50050;
+}
+
+.main-content p {
+    color: black;
+    margin-top: 0;
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="sidenav">
+            <a href="#home">Home page</a>
+            <a href="#musings">Musings</a>
+            <a href="#mytown">My town</a>
+            <a href="#links">Links</a>
+        </div>
+        <div class="main-content">
+            <h1>My first styled page</h1>
+            <p>Welcome to my styled page!</p>
+            <p>It lacks images, but at least it has style. And it has links, even if they don't go anywhere...</p>
+            <p>There should be more here, but I don't know what yet.</p>
+            <hr>
+            <p><em>Made 5 April 2004</em><br><i>by myself.</i></p>
+        </div>
+    </div>
+</body>
+</html>
